@@ -1,0 +1,25 @@
+{
+  "name": "crud-demo",
+  "version": "1.0.0",
+  "description": "Basic CRUD demo using MERN/MEAN ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node index.js",
+    "dev": "nodemon index.js",
+    "build": "node index.js"
+  },
+  "keywords": [
+    "CRUD",
+    "NODEJS"
+  ],
+  "author": "Rupesh Pawar",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongodb": "^6.10.0",
+    "mongoose": "^8.7.3",
+    "nodemon": "^3.1.7"
+  }
+}
